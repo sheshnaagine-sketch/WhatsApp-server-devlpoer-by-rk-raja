@@ -1,0 +1,50 @@
+# ─── Dependencies ─────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# ─── Environment ──────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Build outputs ────────────────────────────────────────
+dist/
+build/
+*.tsbuildinfo
+
+# ─── OS junk ──────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ─── Editor / IDE ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── Logs (but NOT session logs) ──────────────────────────
+logs/
+*.log
+!sessions_data/**/*.log
+
+# ─── Temporary / cache ────────────────────────────────────
+.cache/
+.tmp/
+tmp/
+*.tmp
+*.bak
+*.orig
+
+# ─── CRITICAL: sessions_data must be COMMITTED ───────────
+# DO NOT add "sessions_data/" below.
+# It holds your paired WhatsApp auth — needed for Render deploy.
+# Keep this repo PRIVATE.
