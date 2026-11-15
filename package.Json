@@ -1,0 +1,21 @@
+{
+  "name": "rk-x-raja-whatsapp-24-7-console",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RK X RAJA - Elite Cyber Matrix Pro Console | 24/7 WhatsApp bulk sender with multi-session pairing and cyberpunk dashboard",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "6.7.5",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "pino": "^9.5.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
